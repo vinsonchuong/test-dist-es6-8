@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-
-require('dist-es6/lib/run').module(require('path').resolve('./main'));
+'use strict';
+require('dist-es6/lib/run').module(require.resolve('./main'));
